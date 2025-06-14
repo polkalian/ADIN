@@ -1,0 +1,345 @@
+[   498.791] 
+X.Org X Server 1.20.13
+X Protocol Version 11, Revision 0
+[   498.791] Build Operating System: linux Ubuntu
+[   498.791] Current Operating System: Linux wxh-Precision-Tower-5810 5.13.0-44-generic #49~20.04.1-Ubuntu SMP Wed May 18 18:44:28 UTC 2022 x86_64
+[   498.791] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.13.0-44-generic root=UUID=6257779d-dcf0-4084-8a80-39d614334b2b ro quiet splash vt.handoff=7
+[   498.791] Build Date: 14 December 2021  02:14:13PM
+[   498.791] xorg-server 2:1.20.13-1ubuntu1~20.04.2 (For technical support please see http://www.ubuntu.com/support) 
+[   498.791] Current version of pixman: 0.38.4
+[   498.791] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   498.791] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   498.792] (++) Log file: "xorg.log", Time: Fri Mar 15 17:40:40 2024
+[   498.792] (++) Using config file: "/tmp/tmp9v_nodks"
+[   498.792] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   498.792] (==) ServerLayout "Layout0"
+[   498.792] (**) |-->Screen "Screen0" (0)
+[   498.792] (**) |   |-->Monitor "<default monitor>"
+[   498.792] (**) |   |-->Device "Device0"
+[   498.792] (==) No monitor specified for screen "Screen0".
+	Using a default monitor configuration.
+[   498.792] (==) Automatically adding devices
+[   498.792] (==) Automatically enabling devices
+[   498.792] (==) Automatically adding GPU devices
+[   498.792] (==) Automatically binding GPU devices
+[   498.792] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   498.792] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   498.792] 	Entry deleted from font path.
+[   498.792] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[   498.792] 	Entry deleted from font path.
+[   498.792] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[   498.792] 	Entry deleted from font path.
+[   498.792] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[   498.792] 	Entry deleted from font path.
+[   498.792] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[   498.792] 	Entry deleted from font path.
+[   498.792] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[   498.792] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   498.792] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   498.792] (II) Loader magic: 0x5610d131a020
+[   498.792] (II) Module ABI versions:
+[   498.792] 	X.Org ANSI C Emulation: 0.4
+[   498.792] 	X.Org Video Driver: 24.1
+[   498.792] 	X.Org XInput driver : 24.1
+[   498.792] 	X.Org Server Extension : 10.0
+[   498.793] (--) using VT number 3
+
+[   498.793] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[   498.793] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   498.797] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/x86_64-linux-gnu/nvidia/xorg,/usr/lib/xorg/modules"
+[   498.800] (--) PCI:*(3@0:0:0) 10de:1b06:1028:3600 rev 161, Mem @ 0xf6000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/131072
+[   498.800] (II) LoadModule: "glx"
+[   498.800] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   498.801] (II) Module glx: vendor="X.Org Foundation"
+[   498.801] 	compiled for 1.20.13, module version = 1.0.0
+[   498.801] 	ABI class: X.Org Server Extension, version 10.0
+[   498.801] (II) LoadModule: "nvidia"
+[   498.801] (II) Loading /usr/lib/x86_64-linux-gnu/nvidia/xorg/nvidia_drv.so
+[   498.801] (II) Module nvidia: vendor="NVIDIA Corporation"
+[   498.801] 	compiled for 1.6.99.901, module version = 1.0.0
+[   498.801] 	Module class: X.Org Video Driver
+[   498.801] (II) NVIDIA dlloader X Driver  470.129.06  Thu May 12 22:49:34 UTC 2022
+[   498.801] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[   498.801] (II) Loading sub module "fb"
+[   498.802] (II) LoadModule: "fb"
+[   498.802] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   498.802] (II) Module fb: vendor="X.Org Foundation"
+[   498.802] 	compiled for 1.20.13, module version = 1.0.0
+[   498.802] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   498.802] (II) Loading sub module "wfb"
+[   498.802] (II) LoadModule: "wfb"
+[   498.802] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[   498.802] (II) Module wfb: vendor="X.Org Foundation"
+[   498.802] 	compiled for 1.20.13, module version = 1.0.0
+[   498.802] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   498.802] (II) Loading sub module "ramdac"
+[   498.802] (II) LoadModule: "ramdac"
+[   498.802] (II) Module "ramdac" already built-in
+[   498.803] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[   498.803] (==) NVIDIA(0): RGB weight 888
+[   498.803] (==) NVIDIA(0): Default visual is TrueColor
+[   498.803] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[   498.803] (II) Applying OutputClass "nvidia" options to /dev/dri/card0
+[   498.803] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration" "True"
+[   498.803] (**) NVIDIA(0): Enabling 2D acceleration
+[   498.803] (II) Loading sub module "glxserver_nvidia"
+[   498.803] (II) LoadModule: "glxserver_nvidia"
+[   498.803] (II) Loading /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so
+[   498.815] (II) Module glxserver_nvidia: vendor="NVIDIA Corporation"
+[   498.815] 	compiled for 1.6.99.901, module version = 1.0.0
+[   498.815] 	Module class: X.Org Server Extension
+[   498.815] (II) NVIDIA GLX Module  470.129.06  Thu May 12 22:46:43 UTC 2022
+[   498.815] (II) NVIDIA: The X server supports PRIME Render Offload.
+[   498.817] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:3:0:0
+[   498.817] (--) NVIDIA(0):     DFP-0 (boot)
+[   498.817] (--) NVIDIA(0):     DFP-1
+[   498.817] (--) NVIDIA(0):     DFP-2
+[   498.817] (--) NVIDIA(0):     DFP-3
+[   498.817] (--) NVIDIA(0):     DFP-4
+[   498.817] (--) NVIDIA(0):     DFP-5
+[   498.817] (--) NVIDIA(0):     DFP-6
+[   498.818] (II) NVIDIA(0): NVIDIA GPU NVIDIA GeForce GTX 1080 Ti (GP102-A) at PCI:3:0:0
+[   498.818] (II) NVIDIA(0):     (GPU-0)
+[   498.818] (--) NVIDIA(0): Memory: 11534336 kBytes
+[   498.818] (--) NVIDIA(0): VideoBIOS: 86.02.39.40.32
+[   498.818] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[   498.864] (--) NVIDIA(GPU-0): Philips PHL 243S7 (DFP-0): connected
+[   498.864] (--) NVIDIA(GPU-0): Philips PHL 243S7 (DFP-0): Internal TMDS
+[   498.864] (--) NVIDIA(GPU-0): Philips PHL 243S7 (DFP-0): 600.0 MHz maximum pixel clock
+[   498.864] (--) NVIDIA(GPU-0): 
+[   498.864] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[   498.864] (--) NVIDIA(GPU-0): DFP-1: Internal DisplayPort
+[   498.864] (--) NVIDIA(GPU-0): DFP-1: 1440.0 MHz maximum pixel clock
+[   498.864] (--) NVIDIA(GPU-0): 
+[   498.864] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[   498.864] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[   498.864] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[   498.864] (--) NVIDIA(GPU-0): 
+[   498.864] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[   498.864] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[   498.864] (--) NVIDIA(GPU-0): DFP-3: 1440.0 MHz maximum pixel clock
+[   498.864] (--) NVIDIA(GPU-0): 
+[   498.864] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[   498.864] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[   498.864] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[   498.864] (--) NVIDIA(GPU-0): 
+[   498.864] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[   498.864] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[   498.864] (--) NVIDIA(GPU-0): DFP-5: 1440.0 MHz maximum pixel clock
+[   498.864] (--) NVIDIA(GPU-0): 
+[   498.864] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[   498.864] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[   498.864] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[   498.864] (--) NVIDIA(GPU-0): 
+[   498.872] (==) NVIDIA(0): 
+[   498.872] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[   498.872] (==) NVIDIA(0):     will be used as the requested mode.
+[   498.872] (==) NVIDIA(0): 
+[   498.872] (II) NVIDIA(0): Validated MetaModes:
+[   498.872] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select"
+[   498.872] (**) NVIDIA(0): Virtual screen size configured to be 1024 x 768
+[   498.875] (--) NVIDIA(0): DPI set to (49, 65); computed from "UseEdidDpi" X config
+[   498.875] (--) NVIDIA(0):     option
+[   498.876] (II) NVIDIA: Reserving 24576.00 MB of virtual memory for indirect memory
+[   498.876] (II) NVIDIA:     access.
+[   498.911] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[   498.978] (==) NVIDIA(0): Disabling shared memory pixmaps
+[   498.978] (==) NVIDIA(0): Backing store enabled
+[   498.978] (==) NVIDIA(0): Silken mouse enabled
+[   498.978] (==) NVIDIA(0): DPMS enabled
+[   498.978] (II) Loading sub module "dri2"
+[   498.978] (II) LoadModule: "dri2"
+[   498.978] (II) Module "dri2" already built-in
+[   498.978] (II) NVIDIA(0): [DRI2] Setup complete
+[   498.978] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[   498.978] (II) Initializing extension Generic Event Extension
+[   498.979] (II) Initializing extension SHAPE
+[   498.979] (II) Initializing extension MIT-SHM
+[   498.979] (II) Initializing extension XInputExtension
+[   498.979] (II) Initializing extension XTEST
+[   498.979] (II) Initializing extension BIG-REQUESTS
+[   498.979] (II) Initializing extension SYNC
+[   498.979] (II) Initializing extension XKEYBOARD
+[   498.979] (II) Initializing extension XC-MISC
+[   498.979] (II) Initializing extension SECURITY
+[   498.979] (II) Initializing extension XFIXES
+[   498.979] (II) Initializing extension RENDER
+[   498.979] (II) Initializing extension RANDR
+[   498.980] (II) Initializing extension COMPOSITE
+[   498.980] (II) Initializing extension DAMAGE
+[   498.980] (II) Initializing extension MIT-SCREEN-SAVER
+[   498.980] (II) Initializing extension DOUBLE-BUFFER
+[   498.980] (II) Initializing extension RECORD
+[   498.980] (II) Initializing extension DPMS
+[   498.980] (II) Initializing extension Present
+[   498.980] (II) Initializing extension DRI3
+[   498.980] (II) Initializing extension X-Resource
+[   498.980] (II) Initializing extension XVideo
+[   498.980] (II) Initializing extension XVideo-MotionCompensation
+[   498.980] (II) Initializing extension SELinux
+[   498.980] (II) SELinux: Disabled on system
+[   498.980] (II) Initializing extension GLX
+[   498.980] (II) Initializing extension GLX
+[   498.980] (II) Indirect GLX disabled.
+[   498.980] (II) GLX: Another vendor is already registered for screen 0
+[   498.980] (II) Initializing extension XFree86-VidModeExtension
+[   498.980] (II) Initializing extension XFree86-DGA
+[   498.980] (II) Initializing extension XFree86-DRI
+[   498.980] (II) Initializing extension DRI2
+[   498.981] (II) Initializing extension NV-GLX
+[   498.981] (II) Initializing extension NV-CONTROL
+[   498.981] (II) Initializing extension XINERAMA
+[   499.013] (II) XKB: Reusing cached keymap
+[   499.028] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[   499.028] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   499.028] (II) LoadModule: "libinput"
+[   499.028] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[   499.029] (II) Module libinput: vendor="X.Org Foundation"
+[   499.029] 	compiled for 1.20.4, module version = 0.29.0
+[   499.029] 	Module class: X.Org XInput Driver
+[   499.029] 	ABI class: X.Org XInput driver, version 24.1
+[   499.029] (II) Using input driver 'libinput' for 'Power Button'
+[   499.029] (**) Power Button: always reports core events
+[   499.029] (**) Option "Device" "/dev/input/event1"
+[   499.029] (**) Option "_source" "server/udev"
+[   499.030] (**) Option "Device" "/dev/input/event1"
+[   499.030] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   499.031] (II) event1  - Power Button: device is a keyboard
+[   499.031] (II) event1  - Power Button: device removed
+[   499.064] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[   499.064] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   499.064] (**) Option "xkb_model" "pc105"
+[   499.064] (**) Option "xkb_layout" "cn"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.087] (**) Option "_source" "server/udev"
+[   499.088] (**) Option "Device" "/dev/input/event1"
+[   499.089] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   499.089] (II) event1  - Power Button: device is a keyboard
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.089] (**) Option "_source" "server/udev"
+[   499.090] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   499.090] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   499.090] (II) Using input driver 'libinput' for 'Power Button'
+[   499.090] (**) Power Button: always reports core events
+[   499.090] (**) Option "Device" "/dev/input/event0"
+[   499.090] (**) Option "_source" "server/udev"
+[   499.090] (**) Option "Device" "/dev/input/event0"
+[   499.091] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   499.091] (II) event0  - Power Button: device is a keyboard
+[   499.091] (II) event0  - Power Button: device removed
+[   499.108] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[   499.108] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[   499.108] (**) Option "xkb_model" "pc105"
+[   499.108] (**) Option "xkb_layout" "cn"
+[   499.108] (II) XKB: Reusing cached keymap
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.108] (**) Option "_source" "server/udev"
+[   499.109] (**) Option "_source" "server/udev"
+[   499.109] (**) Option "_source" "server/udev"
+[   499.109] (**) Option "_source" "server/udev"
+[   499.109] (**) Option "_source" "server/udev"
+[   499.109] (**) Option "_source" "server/udev"
+[   499.109] (**) Option "Device" "/dev/input/event0"
+[   499.110] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   499.110] (II) event0  - Power Button: device is a keyboard
+[   499.110] (**) Option "_source" "server/udev"
+[   499.110] (**) Option "_source" "server/udev"
+[   499.110] (**) Option "_source" "server/udev"
+[   499.111] (**) Option "_source" "server/udev"
+[   499.111] (**) Option "_source" "server/udev"
+[   499.111] (**) Option "_source" "server/udev"
+[   499.111] (**) Option "_source" "server/udev"
+[   499.111] (**) Option "_source" "server/udev"
+[   499.111] (**) Option "_source" "server/udev"
+[   499.111] (**) Option "_source" "server/udev"
+[   499.112] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event2)
+[   499.112] (II) No input driver specified, ignoring this device.
+[   499.112] (II) This device may have been added with another device file.
+[   499.112] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event3)
+[   499.112] (II) No input driver specified, ignoring this device.
+[   499.112] (II) This device may have been added with another device file.
+[   499.113] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event4)
+[   499.113] (II) No input driver specified, ignoring this device.
+[   499.113] (II) This device may have been added with another device file.
+[   499.114] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event5)
+[   499.114] (II) No input driver specified, ignoring this device.
+[   499.114] (II) This device may have been added with another device file.
+[   499.115] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=10 (/dev/input/event6)
+[   499.115] (II) No input driver specified, ignoring this device.
+[   499.115] (II) This device may have been added with another device file.
+[   499.115] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=11 (/dev/input/event7)
+[   499.115] (II) No input driver specified, ignoring this device.
+[   499.115] (II) This device may have been added with another device file.
+[   499.116] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=12 (/dev/input/event8)
+[   499.116] (II) No input driver specified, ignoring this device.
+[   499.116] (II) This device may have been added with another device file.
+[   499.116] (II) config/udev: Adding input device HDA Intel PCH Rear Mic (/dev/input/event10)
+[   499.116] (II) No input driver specified, ignoring this device.
+[   499.116] (II) This device may have been added with another device file.
+[   499.117] (II) config/udev: Adding input device HDA Intel PCH Line Out (/dev/input/event11)
+[   499.117] (II) No input driver specified, ignoring this device.
+[   499.117] (II) This device may have been added with another device file.
+[   499.117] (II) config/udev: Adding input device HDA Intel PCH Front Headphone (/dev/input/event12)
+[   499.117] (II) No input driver specified, ignoring this device.
+[   499.117] (II) This device may have been added with another device file.
+[   499.117] (II) config/udev: Adding input device HDA Intel PCH Front Mic (/dev/input/event9)
+[   499.117] (II) No input driver specified, ignoring this device.
+[   499.117] (II) This device may have been added with another device file.
+[926940.176] (II) event1  - Power Button: device removed
+[926940.212] (II) event0  - Power Button: device removed
+[926940.248] (II) UnloadModule: "libinput"
+[926940.248] (II) UnloadModule: "libinput"
+[926940.369] (II) NVIDIA(GPU-0): Deleting GPU-0
+[926940.372] (II) Server terminated successfully (0). Closing log file.
